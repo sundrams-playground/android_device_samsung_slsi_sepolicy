@@ -16,6 +16,10 @@ persist.vendor.sec.fastchg_enabled     u:object_r:vendor_fastcharge_prop:s0
 ## thermal
 vendor.thermal.                u:object_r:vendor_thermal_prop:s0
 
+## vaultkeeper
+ro.vendor.security.vaultkeeper u:object_r:vendor_vaultkeeper_prop:s0
+vendor.security.vaultkeeper    u:object_r:vendor_vaultkeeper_prop:s0
+
 ### wifi
 vendor.wifi.                   u:object_r:vendor_wifi_prop:s0
 ro.vendor.wifi.                u:object_r:vendor_wifi_prop:s0
