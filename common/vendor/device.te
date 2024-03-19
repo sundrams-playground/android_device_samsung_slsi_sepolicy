@@ -13,6 +13,7 @@ type vbmeta_block_device, dev_type;
 
 type bbd_device, dev_type;
 type cpu_dma_device, dev_type;
+type dit_device, dev_type;
 type drb_device, dev_type;
 type epic_device, dev_type;
 type fp_sensor_device, dev_type;

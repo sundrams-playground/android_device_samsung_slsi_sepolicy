@@ -47,6 +47,9 @@
 # cpu
 /dev/cpu_dma_latency                         u:object_r:cpu_dma_device:s0
 
+### DIT device
+/dev/dit                                     u:object_r:dit_device:s0
+
 ### epic
 /dev/mode                                    u:object_r:epic_device:s0
 /dev/socket/epic                             u:object_r:epicd_socket:s0
@@ -168,5 +171,6 @@
 /(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.gnss@[0-9].[0-9]-service                u:object_r:hal_gnss_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.samsung_slsi\.hardware\.configstore@[0-9]\.[0-9]-service   u:object_r:hal_vendor_configstore_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.samsung_slsi\.hardware\.ExynosHWCServiceTW@[0-9]\.[0-9]-service    u:object_r:hal_vendor_hwcservice_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.samsung_slsi\.hardware\.tetheroffload@[0-9]\.[0-9]-service                  u:object_r:hal_tetheroffload_default_exec:s0
 
 /(vendor|system/vendor)/firmware(/.*)?       u:object_r:vendor_firmware_file:s0
